@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TIP CALCULCULATOR</title>
+    <link rel="stylesheet" href="./js/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-info">
+    <div id="tip_calculator" class="d-flex justify-content-center">
+      <!-- form -->
+      <form id="tip_form" class="bg-light mt-5 p-5">
+        <h2>TIP CALCULCULATOR</h2>
+        <div class="py-3 tip_group">
+          <span>$</span>
+          <input
+            type="number"
+            name=""
+            id="amount"
+            placeholder="Total amount :-"
+          />
+        </div>
+
+        <!-- input -->
+        <div id="tip_in">
+          <span>Tip : </span>
+          <input type="range" name="" id="tip_input" value="0" />
+          <span id="tip_output">0%</span>
+          <hr />
+
+          <!-- output -->
+
+          <div class="tip_ammout">
+            <h3 class="py-2">Result</h3>
+            <span>Tip amount $</span>
+            <input type="number" name="" id="tip-num" placeholder="0.00" />
+          </div>
+
+          <div class="py-3 tip-body">
+            <span id="total_tip">Total amount with tip $</span>
+            <input type="number" name="" id="total_amount" placeholder="0.00" />
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script src="./js/js/bootstrap.bundle.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

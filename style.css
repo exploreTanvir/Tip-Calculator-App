@@ -1,0 +1,9 @@
+span {
+  background: rgb(120, 147, 255);
+  padding: 6px;
+  border-radius: 11px;
+  color: white;
+}
+#tip_form {
+  box-shadow: 8px -7px 23px -4px rgba(0, 0, 0, 0.61);
+}
